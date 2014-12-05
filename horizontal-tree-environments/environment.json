@@ -1,0 +1,25 @@
+{
+	"name" : "Bloomberg LP",
+    "type" : "Data License",
+	"children":[{
+		"name" : "Back Office Data",
+        "type" : "Data Provider",		
+		"children" :  [{
+			"name": "Instrument Type",
+			"type":  "EQ - Equity",
+			"children": [{
+				"name": "Eagle PACE",
+				"type": "Authoritative Source"				
+			}]
+		},
+		{
+			"name": "Instrument Type",
+			"type":  "FI - Fixed Income",
+			"children": [{
+				"name": "Charles River Development",
+				"type": "Authoritative Source"				
+			}]
+		}
+		]
+	}]
+}
